@@ -1,7 +1,7 @@
 ABOUT:
 
-jspos is a Javascript port of Mark Watson's Fasttag Part of Speech Tagger which 
-was itself based on Eric Brill's trained rule set and english lexicon.
+jspos is a Javascript port of Mark Watson's FastTag Part of Speech Tagger which 
+was itself based on Eric Brill's trained rule set and English lexicon.
 jspos also includes a basic lexer that can be used to extract words and other
 tokens from text strings.
 
@@ -29,7 +29,7 @@ for (i in taggedWords) {
 
 ACKNOWLEDGEMENTS:
 
-Thanks to Mark Watson for writing Fasttag, which served as the basis for jspos.
+Thanks to Mark Watson for writing FastTag, which served as the basis for jspos.
 
 TAGS:
 
