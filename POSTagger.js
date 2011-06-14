@@ -4,10 +4,13 @@
  * Copyright 2010, Percy Wegmann
  * Licensed under the LGPLv3 license
  * http://www.opensource.org/licenses/lgpl-3.0.html
+ * 
+ * Enhanced by Toby Rahilly to use a compressed lexicon format as of version 0.2.
  */
 
 function POSTagger(){
     this.lexicon = POSTAGGER_LEXICON;
+    this.tagsMap = LEXICON_TAG_MAP;
 }
 
 /**
@@ -54,7 +57,7 @@ POSTagger.prototype.tag = function(words){
         if (!ss) 
             ret[i] = "NN";
         else 
-            ret[i] = ss[0];
+            ret[i] = this.tagsMap[ss][0];
     }
 	
 	/**
