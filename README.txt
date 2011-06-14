@@ -31,6 +31,8 @@ ACKNOWLEDGEMENTS:
 
 Thanks to Mark Watson for writing FastTag, which served as the basis for jspos.
 
+Thanks to Toby Rahilly for compressing the lexicon.
+
 TAGS:
 
 CC Coord Conjuncn           and,but,or
